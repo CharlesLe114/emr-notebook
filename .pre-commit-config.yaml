@@ -2,6 +2,6 @@
 repos:
   # repository with hook definitions
   - repo: https://github.com/CharlesLe114/personal-hooks
-    rev: main # release version of the repo
+    rev: d1c6cfe4e8a6584c0ef373ca679819e58363ec1a # release version of the repo
     hooks: # list of hooks from the repo to include in this project
-      - id: print-argument
+      - id: python38-kernel-fixer
